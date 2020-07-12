@@ -1,0 +1,385 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar{
+    padding: 20px;
+    background:#191a1d;
+    
+
+}
+
+.navbar-nav{
+    padding: 15px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+nav ul li a{
+    
+    font-family: 'Montserret',sans-serif;
+    color:darkgrey;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+nav ul li a,
+nav ul li a:before,
+nav ul li a:after{
+
+    transition: all .5s;
+}
+
+nav ul li a:hover{
+    color:#fff;
+}
+.stroke ul li a{
+
+    position: relative;
+}
+
+.stroke ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgba(1, 126, 250, 0.986);
+    height: 4px;
+    border-radius: 2px;
+
+}
+
+.stroke ul li a:hover:after{
+
+    width: 100%;
+}
+
+
+.navbar .navbar-brand{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Ubuntu',sans-serif;
+    position: relative;
+    color: #fff;
+}
+
+
+.navbar .navbar-brand:after{
+
+   
+   content: ' Sarkar ';
+   background: dodgerblue;
+   padding: 2px;
+
+}
+
+
+
+
+
+/*
+.navbar{
+    background-color:yellow;
+
+    
+    height: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+
+}
+
+.nav-item a{
+    padding:10px ;
+    margin-right: 30px;
+
+    border-radius: 8px;
+    
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+
+}
+
+.nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Monserret',sans-serif;
+    color: black;
+}
+
+.nav-item .nav-link:hover{
+    
+    transition: ease-in-out 0.4s;
+
+
+}
+*/
+
+
+
+
+
+/*  header  */
+
+.header{
+    padding: 3% 15%;
+    background-color: #191a1d;
+    opacity: 1;
+    color: black;
+    height: 94vh;
+    position: relative;
+    overflow:auto;
+    font-size: 58px;
+    font-family: 'Monserret',sans-serif;
+    font-weight: 500;
+    
+}
+
+.header .aboutme{
+    font-weight: 500;
+    font-size: 4.25rem;
+    color: #fff;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 10%;
+
+}
+
+
+.header .aboutme .desc{
+    font-size: 2.15rem;
+    color:darkgray;
+    
+    padding: 20px 0px;
+
+
+    font-weight: 400;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+
+.header .profile-img{
+    border: 20px solid black;
+    float: right;
+    display: block;
+
+    border-radius: 1.25rem;
+
+    top: 0;
+}
+
+.btn{
+    position: relative;
+    top: 100px;
+    right: 100px;
+
+
+    
+
+}
+
+/* 
+----------------------------   skills ---------------------
+*/
+
+#skills{
+    font-size: 4em;
+
+
+    background-image: url('code.png');
+    background-position: center ;
+    background-attachment: fixed;
+
+
+    
+
+}
+
+
+/* skills section */
+.about-me-container{
+    
+    font-size: 2.6rem;
+    font-family: 'Ubuntu',sans-serif;
+    width: 92%;
+    padding: 20px;
+    color:#fff;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.about-me-container .about-me{
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Monsorret';
+}
+
+.skills{
+    font-size: 2.6rem;
+    color: #fff;
+    font-family: 'Ubuntu';
+    padding: 20px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.skills ul{
+    list-style: inside;
+    line-height: 1.2;
+    font-family: 'Monserret';
+    padding: 12px;
+    text-align: left;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* experience section */
+
+.experience{
+    font-family: 'Ubuntu',sans-serif;
+    color: #fff;
+    width: 92%;
+    font-size: 2rem;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+
+}
+
+.experience ul{
+    color: #fff;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+    padding: 12px;
+    font-family: 'Monsorret';
+    list-style-type: lower-roman;
+
+}
+
+.internship-desc{
+    display: none;
+    font-size: large;
+    font-family: cursive;
+    font-style: italic;
+
+}
+
+.education ,.hobbies{ 
+    
+    color: #fff;
+    font-size: 2.6rem;
+    font-family: 'Ubuntu';
+    padding: 20px;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.education .education-desc ul,.hobbies ul{
+    list-style: inside;
+    font-family: 'Monserret';
+    list-style-type: upper-roman;
+    width: 86%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+
+/* 
+----------  Accomplisments -------------
+*/
+
+#acc_body{
+
+    background: #212529;
+    color: #fff;
+
+}
+
+
+.acc-header,.project-header{
+    padding: 3% 12%;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+
+}
+
+.honors,.Certificates,.projects,.solutions,.links,.connections{
+
+    padding: 3% 10%;
+    line-height: 2em;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+
+
+/* 
+contact -------------
+*/
+
+#contact{
+    background-image: radial-gradient( circle 590px at 8.2% 13.8%, #fff 96%, #212529 1% );
+    color: #212;
+
+}
+.connections{
+    padding: 3% 10%;
+    font-size: 42px;
+    font-family: cursive;
+    font-weight: 600;
+    text-align: left;
+    
+}
+.connections ul{
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 30px;
+    font-family: 'Ubuntu';
+
+}
+
