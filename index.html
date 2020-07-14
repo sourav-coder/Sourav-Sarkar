@@ -20,68 +20,106 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="max-height: 200vh;">
 
   <!-- navbar -- -->
- 
-  
+
+
+
   <nav class=" navbar navbar-expand-lg stroke">
-    
-    <a class="navbar-brand mb-0 h1" href="index.html">Sourav  </a>
 
-    <ul class="navbar-nav ml-auto">
+    <a class="navbar-brand mb-0 h1" href="index.html">Sourav </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <!--  modifying the unicode of navbar -- -->
+      <span style="color: #ffffff;" class="navbar-toggler-icon">&#9776</span>
+
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+      <ul id="dropdown" class="navbar-nav   ml-auto">
         <li class="nav-item active">
-            <a  class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
 
-          <a  class="nav-link" href="aboutme.html">About</a>
+          <a class="nav-link" href="aboutme.html">About</a>
 
         </li>
         <li class="nav-item">
-          <a  class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="projects.html">Projects</a>
         </li>
         <li class="nav-item">
-          <a  class="nav-link" href="accomplishments.html">Accomplishments</a>
+          <a class="nav-link" href="accomplishments.html">Accomplishments</a>
 
         </li>
         <li class="nav-item">
-          <a  class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
 
         </li>
-    </ul>
+      </ul>
+    </div>
 
   </nav>
 
 
+  
+
+  <main style="height: auto;">
+
+    <div class="header">
 
 
-  <div class="header">
-
-
-    <div class="aboutme">
-      Hey, I’m Sourav.
-      <div class="desc">
-        Web designer and developer from <br>West Bengal, India. I create custom<br>websites to help businesses do better<br>online.
-        
-          <a href="https://github.com/sourav-coder"><button class="btn  btn-lg btn-outline-primary" >Projects</button></a>
-        
+      <div class="profile-img">
+        <img src="images/mypic.jpg" alt="profile-img" width="300px" height="400px">
       </div>
+
+
+      <div class="aboutme">
+        Hey, I’m Sourav.
+        <div class="desc">
+          Web designer and developer from <br>West Bengal, India. I create custom<br>websites to help businesses do
+          better<br>online.
+
+
+        </div>
+        <button class="btn  btn-lg btn-outline-light"><a href="https://github.com/sourav-coder">Projects</a></button>
+
+      </div>
+
+
+
+
+
+
+
     </div>
 
-    <div class="profile-img">
-    <img src="images/mypic.jpg" alt="profile-img" width="300px" height="400px">
-    </div>
 
 
 
 
- 
 
 
 
-  </div>
+    <footer>
+      <div class="connect">
+        <h4>Connect With Me</h4>
 
+
+
+        <h6> <span> <i class="fas fa-copyright"></i></span>
+          <a href="contact.html">Sourav Sarkar</a>
+        </h6>
+
+      </div>
+    </footer>
+
+  </main>
 
 
 
@@ -109,6 +147,7 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
 
+  <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
